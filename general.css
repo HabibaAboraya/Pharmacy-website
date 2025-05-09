@@ -1,0 +1,274 @@
+body {
+    background-color: #F1EAFF;
+    Font-family: Helvetica, sans-serif;
+    Font-size: medium;
+    background-repeat: no-repeat;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+    padding: 0;
+    margin: 0;
+    min-width: 30rem;
+}
+
+
+#header {
+    Text-align: left;
+    Color: #07954d;
+    font-size: xx-large;
+    Font-weight: bold;
+    Padding: 10px;
+}
+
+#logo-wrapper {
+    display: flex;
+    align-content: center;
+
+}
+
+#logo-wrapper img {
+
+    Width: 80px;
+    Height: 80px;
+}
+
+#logo-wrapper h3 {
+    padding-top: 30px;
+    margin: 0;
+}
+
+#sideMenu{
+Background: #FBF6FF;
+Position: fixed;
+Top: 0; 
+Left: 0;
+Height: 100%;
+Width: 0;
+Overflow-x: hidden;
+transition=0.5s;
+}
+
+#sideMenu ul li {
+List-style-type: none;
+Padding-bottom: 10px; 
+}
+ 
+#sideMenu ul li a{
+Color: #07954d;
+Text-decoration: none;
+Font-size: 28px;
+Transition: 0.5s;
+}
+
+#sideMenu ul li a:hover {
+    Background: white;
+    Border-radius: 10px;
+    Font-size: 120%;
+    Transition: 0.5s;
+}
+.closeBtn{
+Position: absolute;
+Top: 10px;
+Right: 20px;
+}
+
+#menu ul {
+    Background: #FBF6FF;
+    Text-align: center;
+    List-style-type: none;
+    Border-radius: 10px;
+    Padding: 15px;
+    Font-size: 110%;
+    margin: 0;
+
+}
+
+#menu ul li {
+    Display: inline;
+
+}
+
+#menu ul li a {
+    Color: #07954d;
+    Text-decoration: none;
+    Padding-left: 20px;
+    Padding-right: 20px;
+    Transition: 0.5s;
+
+}
+
+#menu ul li a:hover {
+    Background: white;
+    Border-radius: 10px;
+    Font-size: 120%;
+    Transition: 0.5s;
+}
+
+
+.footer {
+    position: relative;
+    color: black;
+    text-align: center;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FBF6FF;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.footer-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+    text-align: left;
+    padding: 3rem;
+    font-size: large;
+}
+
+.socials-wrapper {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+    height: 50%;
+}
+
+.socials-wrapper a img {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+#copyright {
+    Position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #07954d;
+    text-align: center;
+    padding: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    box-shadow: 0 0 1rem #454545;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: none;
+    margin: 1rem;
+    font-size: large;
+}
+
+textarea {
+    box-shadow: 0 0 1rem #454545;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: none;
+    margin: 1rem;
+    font-size: large;
+    width: 100%;
+    height: 10rem;
+}
+
+button {
+    background-color: #07954d;
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: large;
+    margin: 1rem;
+    box-shadow: 0 0 1rem #454545;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FBF6FF;
+    color: #07954d;
+}
+
+table {
+    margin: 1rem;
+    background-color: #FBF6FF;
+    border: 0.2rem solid #07954d;
+    font-size: large;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: #07954d;
+    color: white;
+    padding: 1rem;
+}
+
+td {
+    padding: 1rem;
+}
+
+td, th {
+    border: 0.2rem solid #07954d;
+}
+
+tr, td, th {
+    text-align: left;
+    margin: 0;
+}
+
+@media (max-width: 1024px) {
+    button {
+        font-size: medium;
+    }
+
+    input[type="text"], input[type="password"], input[type="email"] {
+        font-size: medium;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    table {
+        font-size: medium;
+    }
+
+    td {
+        padding: 0.5rem;
+    }
+
+    th {
+        padding: 0.5rem;
+    }
+}
+
+
+@media (max-width: 786px) {
+    body {
+        font-size: xx-small;
+    }
+
+    #header {
+        font-size: large;
+    }
+
+    table {
+        font-size: xx-small;
+
+    }
+
+    td {
+        padding: 0.1rem;
+    }
+
+    th {
+        padding: 0.1rem;
+    }
+}
+
+
+ 

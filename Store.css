@@ -1,0 +1,22 @@
+#slideshow-container{
+ 
+ width: 80%;
+ margin:10%;
+ position:relative;
+}
+
+#slideshow {
+ width: 100%;
+ }
+
+.previous, .next{
+ Position:absolute;
+ top:50%;
+ font-size:30px;
+ margin-top:-20px;
+ padding:10px;
+}
+
+.next{
+ right:0;
+}
